@@ -23,7 +23,10 @@ content: "";
 box-shadow: 1px 3px 5px 1px black;
 
 }
+.black::before{
+background: linear-gradient(rgba(0, 0, 0, 0.979), rgba(0, 0, 0, 0.966));
 
+}
 
 .circle{
     position: absolute;
