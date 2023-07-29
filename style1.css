@@ -20,6 +20,7 @@ font: 1em/10 Verdana, sans-serfis;
 text-align: center;
 text-shadow: 0 0 .5em black;
 content: "";
+box-shadow: 1px 3px 5px 1px black;
 
 }
 .black::before{
@@ -35,6 +36,7 @@ font: 1em/10 Verdana, sans-serfis;
 text-align: center;
 text-shadow: 0 0 .5em black;
 content: "";
+box-shadow: 1px 3px 8px 1px black;
 
 }
 
@@ -44,4 +46,6 @@ content: "";
     height: 10em;
     border-radius: 2em 8em 4em 5em;
     background-color: rgba(126, 70, 7, 0.932);
+    box-shadow: 1px 3px 5px 1px black;
+
 }
