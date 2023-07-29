@@ -7,7 +7,7 @@
     height: 10em;
     transform: rotate(-30deg) skewX(30deg) scaleY(.866);
 }
-.hexagon::before{
+.hexagon::before,.black::before{
     position: absolute;
     right: 6.7%;
     bottom: 0;
@@ -23,22 +23,7 @@ content: "";
 box-shadow: 1px 3px 5px 1px black;
 
 }
-.black::before{
-    position: absolute;
-    right: 6.7%;
-    bottom: 0;
-    left: 6.7%;
-    top: 0;
-    transform: scaleY(1.155) skewX(-30deg) rotate(30deg);
-background: linear-gradient(rgba(0, 0, 0, 0.979), rgba(0, 0, 0, 0.966));
-color: white;
-font: 1em/10 Verdana, sans-serfis;
-text-align: center;
-text-shadow: 0 0 .5em black;
-content: "";
-box-shadow: 1px 3px 8px 1px black;
 
-}
 
 .circle{
     position: absolute;
