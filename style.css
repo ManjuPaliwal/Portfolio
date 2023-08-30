@@ -55,15 +55,11 @@ header{
     justify-content: center;
     align-items: center;
 }
-.logo-img{
-    width: 90px;
-    border-radius: 100%;
-    mix-blend-mode: multiply;
-    box-shadow: 0px 2px 0px  gray;
-}
+
 .logo-text{
     font-size:large;
     margin-top: 0.5em;
+    margin-left: -1.5em;
 }
 nav{
     width: 100%;
@@ -190,7 +186,7 @@ box-shadow: 1px 5px 4px 1px rgb(255, 179, 56);
     justify-content: space-around;
     align-items: center;
   }
-.about img{
+.certificate{
   width: 350px;
 }
   .about-work{
@@ -453,15 +449,26 @@ li:hover{
         flex-direction: column; 
          justify-content: center;
         align-items: center;
-        margin-top: 4em;
+        margin-top: 1.5em;
         margin-left:1em; 
         padding-bottom: 5em;
       }
       .banner-heading{
         width: 100%;
         justify-content: left;
-        font-size: 1.5em;
+        font-size: 1em;
       }
+      .banner-heading h1{
+        font-size: 2em;
+      }
+      .banner-heading br{
+        display: none;
+      }
+      .banner-heading p{
+        font-size: larger;
+        padding:.5em 0 1em;
+      }
+      
       .search-div{
         width: 80%;
         display: flex;
@@ -477,24 +484,25 @@ li:hover{
       .banner-img img{
         width:0;
    }
-   .donut-div .img1{
-    width: 100px ; 
+   .donut-div {
+    display: none;
    }
    .about{
     overflow: hidden;
     flex-direction: column;
   }
-  .about img{
+  .certificate{
     margin-top: 1em;
    }
+   
   .about-work{
 margin-top: 1em;
 margin-bottom: 1em;
-text-align: center;
   }
  
   .about-work h1{
     font-size: .5em;
+    text-align: center;
   }
   .about-work h2{
     font-size: .3em;
@@ -511,8 +519,15 @@ font-size: small;
     width:100%;
     font-size: smaller;
   }
-
-
+.footer-div{
+  text-align: left;
+}
+.footer-div h1{
+  font-size: 1.7em;
+}
+.inner-footer{
+  padding:2em 1em;
+}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
